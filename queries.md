@@ -287,7 +287,7 @@ await client.close(); -->
 
 const filter = {
   'founded_month': {
-    '$gte': 6
+    '$gt': 6
   }
 };
 const limit = 1000;
